@@ -1,0 +1,37 @@
+@import 'alignments';
+
+
+* {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-gray-color: #171717;
+  --mediun-gray-color: #444444;
+  --light-gray-color: #E5E5E5;
+  --light-pink-color: #E3A383;
+  --dark-pink-color: #e96284;
+}
+
+body {
+  background-color: var(--dark-gray-color)
+}
+
+.reset-btn {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+}
+
+.reset-a {
+  text-decoration: none;
+  color: inherit;
+}
+
