@@ -1,0 +1,27 @@
+.avatar-profile-pic{
+  border-radius: 50%;
+  border: 2px solid var(--dark-pink-color);
+  box-shadow: 1px 1px 13px 8px rgba(68,68,68,0.77);
+  -webkit-box-shadow: 1px 1px 13px 8px rgba(68,68,68,0.77);
+  -moz-box-shadow: 1px 1px 13px 8px rgba(68,68,68,0.77);
+}
+
+.flex-center-row{
+  gap: 40px
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.btn-regular {
+  font-family: var(--font-roboto);
+}
+
+@media screen and (max-width: 600px) {
+  .flex-center-row {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px
+  }
+}

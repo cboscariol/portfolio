@@ -15,10 +15,14 @@
   --light-gray-color: #E5E5E5;
   --light-pink-color: #E3A383;
   --dark-pink-color: #e96284;
+  --font-roboto: 'Roboto Mono', monospace
 }
 
+
 body {
-  background-color: var(--dark-gray-color)
+  background-color: var(--dark-gray-color);
+  font-family: var(--font-roboto);
+  color: var(--light-gray-color);
 }
 
 .reset-btn {
@@ -34,4 +38,22 @@ body {
   text-decoration: none;
   color: inherit;
 }
+
+.btn-regular{
+  border: 1.5px solid var(--light-gray-color);
+  border-radius: 10px;
+  padding: 10px;
+  color: var(--light-gray-color);
+}
+
+.btn-regular:hover {
+ color: var(--dark-pink-color);
+ border: 1.5px solid var(--dark-pink-color);
+transform: scale(1.1);
+}
+
+.container {
+  height: 75vh;
+}
+
 

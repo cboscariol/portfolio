@@ -3,7 +3,7 @@ import './style.scss'
 import logoSimples from '../../assets/logo-cb-01.png'
 import menuBurguer from '../../assets/menu-icon.svg'
 
-function Header() {
+function Navbar() {
   const [menu, setMenu] = useState(false)
 
 
@@ -13,7 +13,7 @@ function Header() {
 
 
   return (
-    <div className='flex-center-row header-style mt-2'>
+    <div className='flex-center-row navbar-style mt-2'>
       <img src={logoSimples} alt="logo" />
       <ul className=''>
         <ul className={`link-box flex-center-row${menu ? " open" : ""}`}>
@@ -31,4 +31,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Navbar
