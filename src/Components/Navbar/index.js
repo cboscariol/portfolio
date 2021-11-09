@@ -17,11 +17,11 @@ function Navbar() {
       <img src={logoSimples} alt="logo" />
       <ul className=''>
         <ul className={`link-box flex-center-row${menu ? " open" : ""}`}>
-          <li className='a-style'><a href="">Home</a></li>
-          <li className='a-style'><a href="">About me</a></li>
-          <li className='a-style'><a href="">Skills</a></li>
-          <li className='a-style'><a href="">Projects</a></li>
-          <li className='a-style'><a href="">Contact</a></li>
+          <li className='a-style'><a href="/">Home</a></li>
+          <li className='a-style'><a href="/">About me</a></li>
+          <li className='a-style'><a href="/">Skills</a></li>
+          <li className='a-style'><a href="/">Projects</a></li>
+          <li className='a-style'><a href="/">Contact</a></li>
         </ul>
         <li className='menu-style' onClick={toggleMenu}>
           <img src={menuBurguer} alt="" />
