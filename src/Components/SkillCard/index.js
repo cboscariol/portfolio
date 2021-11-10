@@ -1,12 +1,12 @@
 import './style.scss'
-import react from '../../assets/react.png'
 
-function SkillCard() {
+
+function SkillCard(props) {
   return (
     <div className='skill-card'>
-      <img src={react} alt="..." />
+      <img src={props.image} alt={`logo-${props.title}`} />
       <div>
-        <h5>React</h5>
+        <h5>{props.title}</h5>
       </div>
     </div>
   )
